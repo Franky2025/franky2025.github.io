@@ -17,7 +17,7 @@ var l_serverName = "OverRP";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
-var l_bgVideo = false;
+var l_bgVideo = true;
 
 /*Video background
 Avaiable options:
@@ -44,7 +44,7 @@ Avaiable options:
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
-var l_background = "backgrounds/videos/glimmering.webm";
+var l_background = "backgrounds/videos/stalkertruck.webm";
 
 /*(Image-background only)
 Place one or more images
@@ -92,7 +92,7 @@ var l_musicRandom = false;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 10;
+var l_musicVolume = 5;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
