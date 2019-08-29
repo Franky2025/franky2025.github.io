@@ -9,11 +9,11 @@
 
 /*URL for the server logo
 Leave it blank to use text instead*/
-var l_serverImage = "images/logogo.png";
+var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "OverRP";
+var l_serverName = "The Cook Network";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -50,8 +50,9 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/mes11.jpg"
-
+	"backgrounds/images/touhou01.jpg",
+	"backgrounds/images/touhou02.jpg",
+	"backgrounds/images/touhou03.jpg"
 ];
 
 /*Random background images order?*/
@@ -84,22 +85,25 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{youtube: "w5x_9KEogM8", name: "United States National Anthem"},
+	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
+	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
+	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
+	{youtube: "-7VeTkLKdDw", name: "Departure"}
 ];
 
 /*Random music order?*/
-var l_musicRandom = false;
+var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 10;
+var l_musicVolume = 25;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"",
+"Enjoy the server",
 "Thanks for joining us!",
 "Did you know these backgrounds and songs are from Touhou?"
 ];
