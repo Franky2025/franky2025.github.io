@@ -17,7 +17,7 @@ var l_serverName = "OverRP";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
-var l_bgVideo = true;
+var l_bgVideo = false;
 
 /*Video background
 Avaiable options:
@@ -50,7 +50,9 @@ var l_background = "backgrounds/videos/stalkertruck.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/mes11.jpg"
+	"backgrounds/images/mgsbrit8.png",
+	"backgrounds/images/5542955-garrys-mod-hd-wallpapers.jpg"
+
 
 ];
 
@@ -60,7 +62,7 @@ var l_bgImagesRandom = true;
 /*(Image-background only)
 Delay between background images changes
 in milliseconds*/
-var l_bgImageDuration = 5000;
+var l_bgImageDuration = 1500;
 
 /*(Image-background only)
 Image background fade velocity
@@ -72,19 +74,22 @@ var l_bgOverlay = true;
 
 /*Background darkening amount
 0 for none (0%), 100 for pitch black (100%)*/
-var l_bgDarkening = 40;
+var l_bgDarkening = 50;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
 var l_music = true;
 
 /*Display actual song's name?*/
-var l_musicDisplay = false;
+var l_musicDisplay = true;
 
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{youtube: "tQsWcPF1eyY", name: "Shadow of Chernobyl Original Soundtrack"},
+	{youtube: "QEzaie2TtPY, name: "1"},
+	{youtube: "Kxf96KNYZjs, name: "2"},
+	{youtube: "XDpoBc8t6gE, name: "3"},
+	{youtube: "hcuPAUdhJLg, name: "4"}
 ];
 
 /*Random music order?*/
@@ -92,20 +97,14 @@ var l_musicRandom = false;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 50;
+var l_musicVolume = 60;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Чем опаснее место, тем больше шанс найти что то стоющее",
-"Дороги являются самым безопасным способом передвижения. Некоторые аномалии могут быть незаметны в кустах",
-"Не все модификации подходят некоторым оружиям",
-"Каждая броня имеет свои минусы и плюсы. Такие как пониженная скорость или восприимчивость к аномалиям, и т.д",
-"Противогаз - хрупкая вещь. Будьте осторожны",
-"С разных существ можно найти разные вещи, иногда ничего",
-"Каждый торговец может иметь собственную цену на некоторые вещи"
+"Посетите наш дискорд для получения больше информации"
 ];
 
 /*Random message order?*/
