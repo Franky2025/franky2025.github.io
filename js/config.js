@@ -50,8 +50,7 @@ var l_background = "backgrounds/videos/stalkertruck.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/mgsbrit8.png",
-	"backgrounds/images/5542955-garrys-mod-hd-wallpapers.jpg"
+	"backgrounds/images/mgsbrit8.png"
 
 
 ];
